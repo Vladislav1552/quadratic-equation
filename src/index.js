@@ -5,7 +5,7 @@ var b =0;
 var c =0;
 var s =0;
 var s2 = 0;  
-var x = [];
+var d = [];
  
 if(arr[3]=='-'){
    b= -arr[4];
@@ -27,17 +27,13 @@ if(arr[7]=='-'){
           if (a < 0)
               {
           
-                   x = [s2,s];
+                   d = [s2,s];
               
               }else{
         
-                 x = [s,s2];
+                 d = [s,s2];
                
               }
-              return x;
+              return d;
       
-
-
-
-
 }
